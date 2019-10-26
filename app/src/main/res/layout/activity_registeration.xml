@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Registeration">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_25sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_55sdp">
+
+            <ImageView
+                android:id="@+id/userPhoto"
+                android:layout_width="@dimen/_110sdp"
+                android:layout_height="@dimen/_110sdp"
+                android:src="@drawable/owner_pic" />
+
+            <Button
+                android:id="@+id/changeimg"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignRight="@+id/userPhoto"
+                android:layout_alignBottom="@+id/userPhoto"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/camera_icon" />
+
+        </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/edit_firstname"
+                    android:layout_below="@+id/flashScreenIconDemo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Firstname"
+                    android:inputType="text"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp"/>
+
+                <EditText
+                    android:id="@+id/edit_surname"
+                    android:layout_below="@+id/edit_firstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Surname"
+                    android:inputType="text"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp"/>
+
+                <LinearLayout
+                    android:id="@+id/gender_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@+id/edit_surname"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp">
+
+                    <RadioGroup
+                        android:id="@+id/gender_options"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:layout_weight="1"
+                            android:hint="Male"/>
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:layout_weight="1"
+                            android:hint="Female"/>
+
+                        <RadioButton
+                            android:id="@+id/other"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:layout_weight="1"
+                            android:hint="Others"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/edit_contact_number"
+                    android:layout_below="@+id/gender_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contact Number"
+                    android:inputType="phone"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp"/>
+
+                <EditText
+                    android:id="@+id/edit_email_id"
+                    android:layout_below="@+id/edit_contact_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email-Id"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/edit_password"
+                    android:layout_below="@+id/edit_email_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/edit_confirm_password"
+                    android:layout_below="@+id/edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm Password"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:inputType="textPassword" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/btn_regisetr_user"
+                        android:layout_below="@+id/edit_confirm_password"
+                        android:layout_width="@dimen/_230sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Register"
+                        android:padding="@dimen/_5sdp"
+                        android:textStyle="bold"
+                        android:textColor="@color/backgroundColor"
+                        android:background="@drawable/btn"
+                        android:layout_margin="@dimen/_5sdp"/>
+
+
+                </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

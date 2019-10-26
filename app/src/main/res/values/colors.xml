@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5D1049</color>
+    <color name="colorPrimaryDark">#4E0D3A</color>
+    <color name="colorAccent">#E30425</color>
+    <color name="textColorPrimary">#880E4F</color>
+    <color name="backgroundColor">#F8F9F9</color>
+    <color name="textTitleColor">#323237</color>
+    <color name="textFontColor">#262423</color>
+    <color name="barTitleColor">#FFFFFF</color>
+    <color name="recyclerviewtextColor">#32302F</color>
+    <color name="white">#FDFEFE</color>
+    <color name="hintColor">#566573</color>
+</resources>

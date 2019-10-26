@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--    </style>-->
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- appbar style-->
+    <style name="appBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/AppTheme.AppBarOverlay</item>
+    </style>
+
+    <!-- toolbar style-->
+    <style name="toolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- ToolbarLinearLayoutStyle -->
+
+    <style name="toolbarLinearLayoutFormatStyle">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">1</item>
+    </style>
+
+    <!-- toolbar back image view style-->
+
+    <style name="toolbarBackImageStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.1</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:tint">@color/white</item>
+        <item name="android:src">@drawable/ic_back</item>
+    </style>
+
+    <!-- home toolbar center logo image -->
+
+    <style name="homeactivitytoolbarCenterTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_weight">0.8</item>
+        <item name="android:textColor">@color/backgroundColor</item>
+        <item name="android:textSize">16sp</item>
+
+
+    </style>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Activity.ShowResourceContent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        style="@style/appBarStyle">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/bookARideToolbar"
+            style="@style/toolbarStyle"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+            <LinearLayout
+                style="@style/toolbarLinearLayoutFormatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/driver_profile_appbar_textView"
+                    style="@style/homeactivitytoolbarCenterTextStyle"
+                    android:text="Resources"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ImageView
+        android:id="@+id/resouce_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="content">
+
+    </ImageView>
+
+</LinearLayout>

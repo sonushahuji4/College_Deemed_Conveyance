@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Deemed Conveyance</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="select_picture">Select Picture</string>
+
+    <string name="disclaimer">Please note that the Information provided on this Website Deemed-Conveyance is of generic nature and in Public Interest Only. Please Consult Qualified Professionals for using the same for the Deemed Conveyance Application of your Society</string>
+
+    <string name="home">Deemed Conveyance is a hotly discussed and debated topic these days among the Members of Co- Operative Housing Societies. The credit for these discussions and debates goes to the drive run by Government of Maharashtra for the Deemed Conveyance of the Societies. The Media is also contributing to the information flow on this subject.
+
+\n\n The Members of Co- Operative Housing Societies are looking for authentic information on the subject of Deemed Conveyance.
+
+\n\n Deemed-Conveyance.in is an initiative of IamResilient Technologies Pvt. Ltd. The objective of Deemed-Conveyance.in is to offer authentic information on the subject for the benefit of Members of Societies Planning to go ahead with the Deemed Conveyance of their Property (Land and Structures).
+
+\n\n For the benefit of the Societies planning to go ahead with the Deemed Conveyance of their Land and Structures, we have compiled the Information. You may use this Information for better understanding of the Concept of Deemed Conveyance and for acquainting your Society Members about the same.</string>
+    <string-array name="country">
+        <item name="General">Inida</item>
+    </string-array>
+
+    <string-array name="state">
+        <item name="Maharashtra">Maharashtra</item>
+        <item name="Andhra">Andhra Pradesh</item>
+        <item name="Assam">Assam</item>
+        <item name="Bihar">Bihar</item>
+        <item name="Chhattisgarh">Chhattisgarh</item>
+        <item name="Goa">Goa</item>
+        <item name="Gujarat">Gujarat</item>
+        <item name="Haryana">Haryana</item>
+        <item name="Himachal">Himachal Pradesh</item>
+        <item name="Karnataka">Karnataka</item>
+    </string-array>
+
+    <string-array name="city">
+        <item name="Mumbai">Mumbai</item>
+        <item name="General">Pune</item>
+        <item name="General">Delhi</item>
+        <item name="General">Kolkata</item>
+        <item name="General">Bangalore</item>
+    </string-array>
+</resources>
+
+

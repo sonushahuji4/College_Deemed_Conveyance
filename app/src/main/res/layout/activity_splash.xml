@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Splash">
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_15sdp"
+        android:text="Deemed Conveyance"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/flashScreenIconDemo"
+        android:layout_below="@+id/mainTitle"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:src="@drawable/flashscreenicon"/>
+
+    <TextView
+        android:id="@+id/BoonTitle"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_below="@+id/flashScreenIconDemo"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_10sdp"
+        android:text="A Boon To Co- Operative Housing Societies"/>
+
+</RelativeLayout>

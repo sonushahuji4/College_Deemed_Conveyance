@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ContactUsForm">
+
+    <com.google.android.material.appbar.AppBarLayout
+        style="@style/appBarStyle">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/bookARideToolbar"
+            style="@style/toolbarStyle"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+            <LinearLayout
+                style="@style/toolbarLinearLayoutFormatStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/driver_profile_BackImageView"
+                    style="@style/toolbarBackImageStyle"
+                    android:layout_gravity="center_vertical|left"
+                    android:scaleType="fitStart"
+                    android:tint="@color/white" />
+
+                <TextView
+                    android:id="@+id/driver_profile_appbar_textView"
+                    style="@style/homeactivitytoolbarCenterTextStyle"
+                    android:text="Contact Us"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_15sdp">
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:hint="Your firstname"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"/>
+
+
+            <EditText
+                android:id="@+id/surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:hint="Your surname"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:hint="Your Email"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:hint="Your Mobile No"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <EditText
+                android:id="@+id/societyname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:hint="Society Name"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:hint="Address"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <Spinner
+                android:id="@+id/country_s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <Spinner
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <Spinner
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <EditText
+                android:id="@+id/pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:hint="Pincode"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+            <EditText
+                android:id="@+id/noofmembers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/hintColor"
+                android:hint="No of Members"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <Button
+                android:id="@+id/form_submit"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimary"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/edit_profile"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Edit Profile" />
+
+    <item android:title="Contact Us">
+        <menu>
+            <item android:id="@+id/request_proposal_form"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Request For Proposal Form"/>
+
+            <item android:id="@+id/request_registeration_form"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Webinar Registration Form"/>
+
+
+            <item android:id="@+id/request_contact_form"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Contact Us Form"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="About Us">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Disclaimer" />
+        </menu>
+    </item>
+
+
+</menu>
